@@ -22,3 +22,9 @@ console.log(temp.toPrecision(2));
 // converting string to number
 console.log(Number("3.1416"));
 console.log(typeof(Number("3.1416")));
+
+//another type to declare variable
+// let type variables can only be used within the scope
+let ourName = "freeCodecamp";
+// constant type of variable
+const pi = 3.1416;
