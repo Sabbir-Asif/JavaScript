@@ -5,4 +5,3 @@ document.write(fulName + "<br>");
 document.write("Length of your name = " + fulName.length + "<br>");
 document.write(fulName.toUpperCase() + "<br>");
 document.write("Character at index 2 = " + fulName.charAt(2) + "<br>");
-
