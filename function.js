@@ -1,7 +1,9 @@
+//there is no need to write a return type
 function square(num)
 {
     var result = num * num;
-    document.write("Result = " + result + "<br>");
+    return result;
 }
 
-square(5);
+var result = square(6);
+document.write("Result = " + result + "<br>");
