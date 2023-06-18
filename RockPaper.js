@@ -1,9 +1,12 @@
 let maxN = parseInt(prompt("Enter maximum time : "));
+let win = 0;
+let draw = 0;
+let lose = 0;
 for(let i = 0; i < maxN; i++)
 {
     let user = prompt("Let's start : ");
     let rand = Math.floor(Math.random()*3) + 1;
-    let AI, winner, win = 0, lose = 0, draw = 0;
+    let AI, winner;
     if(rand == 1)
     {
         AI = "rock";
@@ -16,14 +19,14 @@ for(let i = 0; i < maxN; i++)
     {
         AI = "seisor";
     }
-
+    
     if(AI == user)
     {
         console.log("Match drawn.");
         winner = "none";
         draw++;
     }
-    else if(AI == rock)
+    else if(AI == "rock")
     {
         if(user == "paper") winner = "user";
         else winner = "AI";
