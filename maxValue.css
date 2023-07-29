@@ -1,0 +1,19 @@
+h1{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: blueviolet;
+    color: #fff;
+}
+
+p{
+    padding: 20px;
+    margin: 20px;
+    background-color: beige;
+    font-size: 1.3em;
+}
+
+p strong{
+    color: rgb(179, 50, 75);
+}
